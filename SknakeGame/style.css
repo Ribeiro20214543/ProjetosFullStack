@@ -1,0 +1,28 @@
+
+/* reset de margens */
+* {
+    margin: 0;
+    padding:0;
+}
+body{
+    height: 100vh; /*define a altura*/
+    width: 95vw; /*define a largura*/
+    display: flex; /*possibilita a auteração das propriedades dentro da box*/
+    flex-direction: column; /*define a direção dos elementos*/
+    justify-content: center;/*alinha horizontalmente*/
+    align-items: center;/*alinha verticalmente*/
+    background-image: url('/west.jpg');/*imagem de fundo*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: absolute;
+
+}
+
+footer{
+    align-items: flex;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: antiquewhite;
+
+}

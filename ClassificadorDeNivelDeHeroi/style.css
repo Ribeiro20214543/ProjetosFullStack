@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1, label, p {
+    color: white;
+    text-align: center;
+}
+
+label, input {
+    margin: 5px;
+}
+
+input {
+    color: black;
+}
+
+button#calcular {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button#calcular:hover {
+    background-color: darkgray;
+}
